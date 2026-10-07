@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="img-1" src="https://animalesmascotas.com/wp-content/uploads/2013/11/razas-de-gato-gatos-domestico-comun-o-mestizo-caracteristicas-1024x820.jpg" alt=""
+          onclick="borde1('img-1')">
+    <img id="img-2" src="https://tse1.mm.bing.net/th/id/OIP.mAfv-y3e0fhB8UQho68kqgHaE8?r=0&pid=ImgDet&w=474&h=316&rs=1&o=7&rm=3" alt=""
+          onclick="borde2('img-2')">
+    <img id="img-3" src="https://tse4.mm.bing.net/th/id/OIP._SddXr2je_z3V7z5BmimwgHaEK?r=0&pid=ImgDet&w=474&h=266&rs=1&o=7&rm=3" alt=""
+          onclick="borde3('img-3')">
+
+    <script>
+        function borde1(elementId) {
+            document.getElementById("img-1").style.border = "dashed 3px blue";
+        }
+        function borde2(elementId) {
+            document.getElementById("img-2").style.border = "dashed 3px green";
+        }
+        function borde3(elementId) {
+            document.getElementById("img-3").style.border = "dashed 3px red";
+        }
+    </script>
+</body>
+</html>
